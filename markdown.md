@@ -1,7 +1,7 @@
 # Headings
 ```markdown
 # Heading
-# Subheading
+## Subheading
 ```
 # Emphasis 
 ```markdown
