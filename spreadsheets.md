@@ -10,11 +10,14 @@
 | =text(A1, "mm-dd-yy") | Format date in A1 to text. |
 | =SPARKLINE(A1:A10, {"charttype", "column" ; "color", "blue"}) | Plot range A1:A10 as a blue column chart that fits a single cell.|
 | =COUNTIF(A:A, A1) | Count duplicates of A1 in column A |
+| =SUMIF(cond_range, condition, sum_range) | Sum sum_range if cond_range meets condition.|
 | =LINEST(y_data, x_data) | Linear fit that returns both SLOPE and INTERSECT. Note that x_range can span multiple columns. |
 | =RAND() | Yields a random number. |
 | =UNIQUE() | Unique rows in the provided range. Useful when calculating group statistics with COUNTIF, AVERAGEIF, etc.|
 | =AVERAGEIF() | Average of values depending on criteria.|
 | =FORECAST(x, y_data, x_data) | Expected y-value based on linear regression. | 
+| =SORT() | Sort rows of a range by spesified column. |
+| =FILTER() | Filters rows based off provided conditions. |
 
 
 
