@@ -12,7 +12,7 @@
 | A     | B     | C     |
 | :---  | :---: | ---:  |
 | Left  | Center| Right |
-| l     | c     | r     |
+| l     | c     | 1 row <br /> 2 row   |
 ```
 # Lists
 ```markdown

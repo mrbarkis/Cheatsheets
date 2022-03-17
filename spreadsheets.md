@@ -2,6 +2,7 @@
 | Hotkey | Outcome |
 | :---                  | :---:                    |
 | ctrl+arrow key        | Move to next empty cell. |
+| f4 | Cycle between relative and abosolute references. |
 
 # Formulas
 | Formula | Purpose |
@@ -18,6 +19,11 @@
 | =FORECAST(x, y_data, x_data) | Expected y-value based on linear regression. | 
 | =SORT() | Sort rows of a range by spesified column. |
 | =FILTER() | Filters rows based off provided conditions. |
+| =DATE(2000,11,20) | Converst year/month/day into a date. Usefull in time filtering.|
+| =REGEXMATCH() | Checks if a text mathces a given regex. |
+| =REGEXREPLACE() | Replace a regex match with a given text. <br /> IF(REGEXMATCH(), REGEXREPLACE, ) is a typical use case.|
+| =REGEXEXTRACT() | Extract a match. Capture groups () are useful. Deleting possible by omission.|
+| & | Concat strings|
 
 
 
@@ -38,6 +44,6 @@
 | Pivot table | Reorganize/Groub by/Summarize/Accumulate data. Also, digging into a pivot table is a handy way to filter/explore datasets.|
 | Conditional formatting | Highlight cells based on conditions such as thresholds and matches. Regex available for text conditions.|
 | Named ranges | Ranges, and individual cells, can be named, so that they are clearer to use. This also makes references more reliable when, for example, adding new rows within the range.|
-| Data validation | Allows to greate interactive checkboxes, dropdown lists, text fields, etc. |
+| Data validation | Allows to greate interactive checkboxes, dropdown lists, text fields, url fields, email fields, etc. |
 | Hide Column | Hide duplicate columns, for example they might have different formats. |
 | Sampling | Use RAND() and Sort by column to sample rows. |
